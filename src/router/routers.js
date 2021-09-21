@@ -10,7 +10,7 @@ import ClassComponentRef from "../Components/ClassComponentRef/focusInput"
 import ErrorBountaryComponent from "../Components/ErrorBoundary/errorBountryWrapper"
 const routesArr = [
   {
-    path: '/',
+    path: '/react-concepts/',
     component: LifeCycle,
     exact: true,
   },
