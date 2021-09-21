@@ -1,8 +1,15 @@
 import React, { Component } from "react";
+import LifeCyleA from "./lifeCyleA";
 
 class LifeCycle extends Component {
   render () {
-    return <div>Life cycle Hook</div>
+
+    return (
+      <div>
+        <h1>Check the console</h1>
+        <LifeCyleA />
+      </div>
+    )
   }
 
 }
