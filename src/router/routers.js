@@ -3,6 +3,7 @@ import React from "react"
 import { PageNotFound } from "../Components/404"
 import LifeCycle from "../Components/LifeCycle/lifeCycle"
 import { Route, Switch } from "react-router-dom"
+import UseStateComponent from "../Components/Hooks/UseStateWrapper"
 const routesArr = [
   {
     path: '/',
@@ -12,6 +13,10 @@ const routesArr = [
   {
     path: '/LifeCycle',
     component: LifeCycle,
+  },
+  {
+    path: '/UseState',
+    component: UseStateComponent,
   },
   {
     path: '*',

@@ -16,6 +16,14 @@ const navigation =                         [
     icon: DesktopComputerIcon,
     current: false,
   },
+  {
+    name: 'UseState',
+    href: '/UseState',
+    icon: DesktopComputerIcon,
+    current: false,
+  },
+  
+
 ]
 
 
