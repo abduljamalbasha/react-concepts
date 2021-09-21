@@ -46,7 +46,18 @@ const navigation =                         [
     icon: DesktopComputerIcon,
     current: false,
   },
-
+  {
+    name: 'Render Props Example',
+    href: '/RenderProps',
+    icon: DesktopComputerIcon,
+    current: false,
+  },
+  {
+    name: 'UseReducer Example',
+    href: '/UseReducer',
+    icon: DesktopComputerIcon,
+    current: false,
+  }
 ]
 
 

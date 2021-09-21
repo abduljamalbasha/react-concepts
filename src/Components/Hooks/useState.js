@@ -9,7 +9,7 @@ export const UseStateObjectDemo = () => {
   const [name, setName] = useState({firstName:"", lastName:""})
   return (
     <div>
-      <h1>UseState with objects</h1>
+      <h1 className="text-left">UseState with objects</h1>
       <div role="list" className="mt-3 grid grid-cols-1 gap-4 sm:gap-5 sm:grid-cols-2 lg:grid-cols-5">
                <div>
                   <label htmlFor="firstname" className="sr-only">
@@ -53,10 +53,7 @@ export const StateHooks = () => {
   }
   return (
     <div className="mb-5">
-      <h1>UseState</h1>
-      
-      
-
+      <h1 className="text-left">UseState</h1>
  <div>
       
       <div role="list" className="mt-3 grid grid-cols-1 gap-4 sm:gap-5 sm:grid-cols-2 lg:grid-cols-5">
@@ -87,16 +84,16 @@ export const StateHooks = () => {
             </div>
           </li>
           <button type="button"
-            className="inline-flex ml-5 items-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            className="inline-flex ml-5 items-center text-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             onClick={() => setCount( prevState => prevState + 1 )} >Increment</button>
           <button type="button"
-            className="inline-flex ml-5 items-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            className="inline-flex ml-5 items-center text-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             onClick={() => setCount( prevState => prevState - 1 )} >Decrement</button>
           <button type="button"
-            className="inline-flex ml-5 items-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            className="inline-flex ml-5 items-center text-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             onClick={increment5Handle} >Increment 5</button>
           <button type="button"
-            className="inline-flex ml-5 items-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            className="inline-flex ml-5 items-center text-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             onClick={() => setCount( initialState )} >Reset</button>
       </div>
     </div>
