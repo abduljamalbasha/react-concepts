@@ -8,6 +8,9 @@ import FragmentComponent from "../Components/Fragment/Fragment"
 import ContextWrapperComponent from "../Components/Context/contextWrapper"
 import ClassComponentRef from "../Components/ClassComponentRef/focusInput"
 import ErrorBountaryComponent from "../Components/ErrorBoundary/errorBountryWrapper"
+import RenderPropComponent from "../Components/RenderProps/counterWrapper"
+import UseReducerWrapper from "../Components/Hooks/useReducer/useReducerWrapper"
+// import UseReducerComponent from "../Components/Hooks/useReducer/useReducerWrapper"
 const routesArr = [
   {
     path: '/react-concepts/',
@@ -37,6 +40,14 @@ const routesArr = [
   {
     path: '/ErrorBoundary',
     component: ErrorBountaryComponent,
+  },
+  {
+    path: '/RenderProps',
+    component: RenderPropComponent,
+  },
+  {
+    path: '/UseReducer',
+    component: UseReducerWrapper,
   },
   {
     path: '*',
