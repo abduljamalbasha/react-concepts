@@ -12,7 +12,7 @@ export const UseStateObjectDemo = () => {
       <h1>UseState with objects</h1>
       <ul role="list" className="mt-3 grid grid-cols-1 gap-4 sm:gap-5 sm:grid-cols-2 lg:grid-cols-5">
                <div>
-                  <label htmlFor="email" className="sr-only">
+                  <label htmlFor="firstname" className="sr-only">
                     Email
                   </label>
                   <input
@@ -24,7 +24,7 @@ export const UseStateObjectDemo = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="email" className="sr-only">
+                  <label htmlFor="lastname" className="sr-only">
                     Email
                   </label>
                   <input
@@ -34,7 +34,7 @@ export const UseStateObjectDemo = () => {
                     placeholder="Last Name"
                     name="lastname" onChange={e => setName({ ...name, lastName: e.target.value}) }
                   />
-        </div>
+                </div>
           {JSON.stringify(name)}
       </ul>
     </div>
@@ -71,7 +71,7 @@ export const StateHooks = () => {
             </div>
             <div className="flex-1 flex items-center justify-between border-t border-r border-b border-gray-200 bg-white rounded-r-md truncate">
               <div className="flex-1 px-4 py-2 text-sm truncate">
-                <a href="/" className="text-gray-900 font-medium hover:text-gray-600">
+                <a href="/" className="text-gray-900 text-2xl font-medium hover:text-gray-600">
                 {count}
                 </a>
                 {/* <p className="text-gray-500"> Members</p> */}

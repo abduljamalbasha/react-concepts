@@ -22,7 +22,30 @@ const navigation =                         [
     icon: DesktopComputerIcon,
     current: false,
   },
-  
+  {
+    name: 'Fragment Demo',
+    href: '/Fragment',
+    icon: DesktopComputerIcon,
+    current: false,
+  },
+  {
+    name: 'UseContext',
+    href: '/Context',
+    icon: DesktopComputerIcon,
+    current: false,
+  },
+  {
+    name: 'Class Compoenent Ref',
+    href: '/ClassCompoenentRef',
+    icon: DesktopComputerIcon,
+    current: false,
+  },
+  {
+    name: 'Error Boundary Example',
+    href: '/ErrorBoundary',
+    icon: DesktopComputerIcon,
+    current: false,
+  },
 
 ]
 
