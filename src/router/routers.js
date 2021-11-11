@@ -11,6 +11,7 @@ import ErrorBountaryComponent from "../Components/ErrorBoundary/errorBountryWrap
 import RenderPropComponent from "../Components/RenderProps/counterWrapper"
 import UseReducerWrapper from "../Components/Hooks/useReducer/useReducerWrapper"
 import { USHomeComponent } from "../Components/UseQuery/Home"
+import { UCParentComponent } from "../Components/useCallback/ParentComponent"
 // import UseReducerComponent from "../Components/Hooks/useReducer/useReducerWrapper"
 const routesArr = [
   {
@@ -53,6 +54,10 @@ const routesArr = [
   {
     path: '/UseQuery',
     component: USHomeComponent,
+  },
+  {
+    path: '/UseCallBack',
+    component: UCParentComponent
   },
   {
     path: '*',

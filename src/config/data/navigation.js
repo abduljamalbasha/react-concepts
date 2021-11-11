@@ -63,7 +63,14 @@ const navigation =                         [
     href: '/UseQuery',
     icon: DesktopComputerIcon,
     current: false,
-  }]
+  },
+  {
+    name: 'UseCallBack Example',
+    href: '/UseCallBack',
+    icon: DesktopComputerIcon,
+    current: false,
+  }
+]
 
 
 navigation.sort((a, b) => {
