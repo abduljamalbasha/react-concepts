@@ -10,6 +10,7 @@ import ClassComponentRef from "../Components/ClassComponentRef/focusInput"
 import ErrorBountaryComponent from "../Components/ErrorBoundary/errorBountryWrapper"
 import RenderPropComponent from "../Components/RenderProps/counterWrapper"
 import UseReducerWrapper from "../Components/Hooks/useReducer/useReducerWrapper"
+import { USHomeComponent } from "../Components/UseQuery/Home"
 // import UseReducerComponent from "../Components/Hooks/useReducer/useReducerWrapper"
 const routesArr = [
   {
@@ -48,6 +49,10 @@ const routesArr = [
   {
     path: '/UseReducer',
     component: UseReducerWrapper,
+  },
+  {
+    path: '/UseQuery',
+    component: USHomeComponent,
   },
   {
     path: '*',
