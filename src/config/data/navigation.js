@@ -57,8 +57,13 @@ const navigation =                         [
     href: '/UseReducer',
     icon: DesktopComputerIcon,
     current: false,
-  }
-]
+  },
+  {
+    name: 'UseQuery Example',
+    href: '/UseQuery',
+    icon: DesktopComputerIcon,
+    current: false,
+  }]
 
 
 navigation.sort((a, b) => {
