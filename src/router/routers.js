@@ -12,6 +12,9 @@ import RenderPropComponent from "../Components/RenderProps/counterWrapper"
 import UseReducerWrapper from "../Components/Hooks/useReducer/useReducerWrapper"
 import { USHomeComponent } from "../Components/UseQuery/Home"
 import { UCParentComponent } from "../Components/useCallback/ParentComponent"
+import UseMemoComponent from "../Components/UseMemo/UseMemo"
+import UseRefCompoent from "../Components/UseRef/UseRef"
+import CustomHookCompoenent from "../Components/CustomHooks/customHook"
 // import UseReducerComponent from "../Components/Hooks/useReducer/useReducerWrapper"
 const routesArr = [
   {
@@ -60,9 +63,21 @@ const routesArr = [
     component: UCParentComponent
   },
   {
+    path: '/UseMemo',
+    component: UseMemoComponent
+  },
+  {
+    path: '/UseRef',
+    component: UseRefCompoent
+  },
+  {
+    path: '/customHook',
+    component: CustomHookCompoenent,
+  },
+  {
     path: '*',
     component: PageNotFound,
-  },
+  }
 ]
 
 const RouteWithSubRoutes = (

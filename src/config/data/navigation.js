@@ -69,6 +69,24 @@ const navigation =                         [
     href: '/UseCallBack',
     icon: DesktopComputerIcon,
     current: false,
+  },
+   {
+    name: 'UseMemo Example',
+    href: '/UseMemo',
+    icon: DesktopComputerIcon,
+    current: false,
+  },
+   {
+    name: 'UseRef Example',
+    href: '/UseRef',
+    icon: DesktopComputerIcon,
+    current: false,
+  },
+      {
+    name: 'Custom Hook Example',
+    href: '/customHook',
+    icon: DesktopComputerIcon,
+    current: false,
   }
 ]
 
